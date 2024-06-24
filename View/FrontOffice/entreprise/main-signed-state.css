@@ -1,0 +1,705 @@
+.asset-2-1-icon {
+  width: 155px;
+  height: 45px;
+  position: relative;
+  object-fit: cover;
+}
+.navigation-container {
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.title8 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.plus-circle-icon {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ask-a-question {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.02em;
+  font-weight: 900;
+  font-family: var(--font-roboto);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 84px;
+}
+.action-buttons,
+.button4 {
+  display: flex;
+  align-items: flex-start;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--color-salmon);
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  white-space: nowrap;
+}
+.button4:hover {
+  background-color: var(--color-indianred);
+}
+.action-buttons {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.notification-bell {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+.notificatios-icon1 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.notification-icon {
+  width: 27px;
+  height: 33px;
+  position: relative;
+}
+.notifications-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.profile-pic-icon3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+}
+.karma-points {
+  width: 7px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 7px;
+}
+.karma1,
+.profile-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.karma1 {
+  width: 16px;
+  margin: 0 !important;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-2);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-11xs) var(--padding-10xs) var(--padding-11xs)
+    var(--padding-9xs);
+  z-index: 1;
+}
+.profile-area {
+  position: relative;
+}
+.menu-button-icon {
+  width: 6.9px;
+  height: 6px;
+  position: relative;
+}
+.menu-icon,
+.user-actions-menu,
+.user-information {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-icon {
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+}
+.user-actions-menu,
+.user-information {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.user-actions-menu {
+  align-items: flex-end;
+  gap: var(--gap-4xl);
+}
+.navbar1,
+.user-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.navbar1 {
+  align-self: stretch;
+  background-color: var(--bad);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-18xl) 38px var(--padding-34xl) var(--padding-32xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-roboto);
+}
+.espace-client {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.client-space-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.line-div {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid var(--titel-text-color);
+  box-sizing: border-box;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+.client-space-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--titel-text-color);
+  font-family: var(--font-roboto);
+}
+.title9 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.claim-history-header {
+  width: 539px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.past-requests-child {
+  width: 611px;
+  height: 455px;
+  position: relative;
+  background-color: var(--bad);
+  display: none;
+  max-width: 100%;
+}
+.retrouvez-vos-dernires {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 544px;
+  height: 91px;
+  z-index: 1;
+}
+.card-background {
+  position: absolute;
+  top: 88px;
+  left: 2px;
+  background-color: #ffb3b3;
+  width: 44px;
+  height: 12px;
+  z-index: 1;
+}
+.past-requests-card {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+}
+.retrouvez-vos-dernires1 {
+  height: 102px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.past-declarations {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.plus-circle-icon1 {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.suivre-mes-rclamations {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--white);
+  text-align: left;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl) var(--padding-xs) var(--padding-2xl)
+    var(--padding-lgi);
+  background-color: var(--color-mistyrose);
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.button5:hover {
+  background-color: #e6bdbd;
+}
+.button5,
+.past-requests,
+.track-claims-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.track-claims-button {
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+}
+.past-requests {
+  width: 611px;
+  background-color: var(--bad);
+  flex-direction: column;
+  padding: 28px 33px 95px;
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  min-width: 611px;
+  max-width: 100%;
+}
+.heytham7367-two-people-explori-icon {
+  height: 455px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 473px;
+  z-index: 1;
+}
+.claim-cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+}
+.claim-history,
+.claim-history-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.claim-history-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 31px;
+}
+.claim-history {
+  width: 1427px;
+  flex-direction: row;
+  padding: 0 44px var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--titel-text-color);
+  font-family: var(--font-roboto);
+}
+.vous-souhaitez-rclamer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.description-input {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: var(--bad);
+  width: 44px;
+  height: 12px;
+}
+.claim-description {
+  position: absolute;
+  top: 27px;
+  left: 32px;
+  width: 544px;
+  height: 91px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-roboto);
+}
+.claim-reason {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(217, 217, 217, 0.33);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.slectionnez-le-motif-de-rcla {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-18xl);
+}
+.slectionnez-le-motif-container1 {
+  width: 100%;
+}
+.slectionnez-le-motif-container {
+  width: 519px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.instruction-dividers-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+  z-index: 2;
+}
+.claim-options {
+  position: absolute;
+  top: 117px;
+  left: 76px;
+  width: 597px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.dposez-votre-rclamation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-18xl);
+}
+.dposez-votre-rclamation-container {
+  width: 347px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.claim-options-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+  z-index: 2;
+}
+.claim-options1 {
+  position: absolute;
+  top: 258px;
+  left: 76px;
+  width: 597px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.new-claim-instructions-child {
+  position: absolute;
+  top: 490px;
+  left: 71px;
+  width: 602px;
+  height: 1px;
+  object-fit: contain;
+  z-index: 2;
+}
+.uivi-de-vos {
+  text-decoration: underline;
+}
+.uivi-de-vos-demandes {
+  color: inherit;
+}
+.consultez-tout-moment-la-rp {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-18xl);
+}
+.consultez-tout-container1 {
+  width: 100%;
+}
+.consultez-tout-container {
+  position: absolute;
+  top: 377px;
+  left: 71px;
+  display: flex;
+  align-items: center;
+  width: 595px;
+  z-index: 2;
+}
+.dposer-une-rclamation {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-roboto);
+  color: var(--white);
+  text-align: left;
+}
+.plus-circle-icon2 {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini-5) var(--padding-4xs) var(--padding-mini-5)
+    var(--padding-xl);
+  background-color: var(--bad);
+  position: absolute;
+  top: 528px;
+  left: 54px;
+  border-radius: var(--br-8xs);
+  width: 333px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  white-space: nowrap;
+  z-index: 2;
+}
+.button6:hover {
+  background-color: #ff2626;
+}
+.new-claim-instructions {
+  height: 607px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.main-content,
+.main-signed-state,
+.new-claim {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.new-claim {
+  width: 1405px;
+  flex-direction: row;
+  padding: 0 47px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--titel-text-color);
+  font-family: var(--font-alegreya);
+}
+.main-content,
+.main-signed-state {
+  flex-direction: column;
+}
+.main-content {
+  align-self: stretch;
+  gap: var(--gap-62xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.main-signed-state {
+  width: 100%;
+  position: relative;
+  background-color: var(--bg);
+  overflow: hidden;
+  padding: 0 0 93px;
+  box-sizing: border-box;
+  gap: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .past-requests {
+    flex: 1;
+  }
+  .claim-cards {
+    flex-wrap: wrap;
+  }
+  .new-claim {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .espace-client {
+    font-size: 38px;
+  }
+  .title9 {
+    font-size: 44px;
+  }
+  .retrouvez-vos-dernires,
+  .vous-souhaitez-rclamer {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar1 {
+    padding-left: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .heytham7367-two-people-explori-icon,
+  .past-requests {
+    min-width: 100%;
+  }
+  .claim-history-content {
+    gap: var(--gap-mini);
+  }
+  .claim-history {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .main-content {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .espace-client {
+    font-size: var(--font-size-10xl);
+  }
+  .client-space-title {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .title9 {
+    font-size: 33px;
+  }
+  .retrouvez-vos-dernires {
+    font-size: var(--font-size-3xl);
+  }
+  .retrouvez-vos-dernires1 {
+    font-size: var(--font-size-lgi);
+  }
+  .past-requests {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .consultez-tout-container,
+  .dposez-votre-rclamation-container,
+  .slectionnez-le-motif-container,
+  .vous-souhaitez-rclamer {
+    font-size: var(--font-size-3xl);
+  }
+  .main-content {
+    gap: var(--gap-xl);
+  }
+}

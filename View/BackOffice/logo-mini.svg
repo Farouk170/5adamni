@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="29" viewBox="0 0 35 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eb1616;
+      }
+
+      .cls-2 {
+        font-size: 30px;
+        fill: #191c24;
+        font-family: "Berlin Sans FB";
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="35" height="29"/>
+  <text id="_5a" data-name="5a" class="cls-2" x="1.761" y="24.406">5a</text>
+</svg>

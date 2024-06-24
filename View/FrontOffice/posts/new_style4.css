@@ -1,0 +1,61 @@
+.comment-container {
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+}
+
+.comment-container a {
+    color: rgb(29, 161, 242);
+}
+
+.comment-container a:hover, .user-content a:hover {
+    text-decoration: underline;
+}
+
+.comment-box {
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1rem; /* Adjust padding for better height alignment */
+    background: rgb(230, 236, 240);
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    flex: 1; /* Take up as much space as possible */
+    margin-right: 0.5rem; /* Add some space between the input and button */
+    display: flex;
+    align-items: center; /* Center the input vertically */
+}
+
+.comment-box i {
+    color: rgb(101, 119, 134);
+    font-size: 0.9rem;
+}
+
+.comment-box input {
+    padding: 0.5rem 1rem; /* Adjust padding to match button */
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    background: rgb(230, 236, 240);
+    flex: 1; /* Ensure the input takes up the full width of the comment-box */
+}
+
+.comment-container .btn-comment {
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.5rem 1rem; /* Adjust padding to match input */
+    background: #C8102E;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 1rem;
+    height: 100%; /* Match the height of the button to the input */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.comment-container .btn-comment:hover {
+    background: #C8102E;
+    cursor: pointer;
+}
